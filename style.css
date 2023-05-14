@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* -------------------------Header section------------------------------------------------------- */
+header{
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+  width: 100%;
+  font-weight: 400;
+  font-size: larger;
+  background-color: antiquewhite;
+}
+
+.buttons{
+    border-radius: 10px;
+    margin-right: 10px;
+    display: inline;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center; 
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px 30px 5px 30px;
+
+
+}
+.links a{
+    color: rgba(248, 118, 85, 0.911);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    justify-content:space-around;
+    transition: all ease 0.3s;
+}
+.hiperlinks{
+    display: flex;
+    justify-content: center;
+}
+
+.links a:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+/* -------------------------Main section------------------------------------------------------- */
+main{
+    padding-top: 40px;
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-bk{
+    padding:10px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(248, 118, 85, 0.911);
+}
+.image-bk img{
+    border-radius: 10px;
+}
+
+/* -------------------------Ariciu section------------------------------------------------------- */
+.ariciu img{
+    width: 15%;
+    height: auto;
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(248, 118, 85, 0.911);
+    transition: all ease 0.5s;
+}
+.ariciu img:hover{
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 20px 40px rgba(248, 118, 85, 0.950);
+}
+
+.ariciu-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+#ariciu{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    padding: 0 30px 50px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+    text-align: center;
+
+}
+.cos{
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.cos:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+}
+#ariciu h1{
+    color:rgba(248, 118, 85, 0.911)
+}
+#ariciu h4{
+    color:rgba(5, 70, 37, 0.911)
+}
+#ariciu a{
+    color:rgb(117, 0, 250)
+}
+#ariciu a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+}
+/* -------------------------Ariciu mare section------------------------------------------------------- */
+#ariciu-mare img{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: inline-flex;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    #ariciu-mare img {
+        width: 120%;
+        height: auto;
+    }
+    #ariciu img{
+        width: 50%;
+        height: auto;
+    }
+  }
+/* -------------------------Grohi section------------------------------------------------------- */
+
+.grohi img{
+    width: 15%;
+    height: auto;
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(248, 118, 85, 0.911);
+    transition: all ease 0.5s;
+}
+.grohi img:hover{
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 20px 40px rgba(248, 118, 85, 0.950);
+}
+
+.grohi-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#grohi{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    padding: 0 30px 50px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+    text-align: center;
+
+}
+.cos{
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.cos:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+}
+#grohi h1{
+    color:rgba(248, 118, 85, 0.911)
+}
+#grohi h4{
+    color:rgba(5, 70, 37, 0.911)
+}
+#grohi a{
+    color:rgb(117, 0, 250)
+}
+#grohi a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* -------------------------Grohi mare section------------------------------------------------------- */
+#grohi-mare img{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: inline-flex;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    #grohi-mare img {
+        width: 120%;
+        height: auto;
+    }
+    #grohi img{
+        width: 50%;
+        height: auto;
+    }
+  }
+
+/* -------------------------Milu section------------------------------------------------------- */
+
+
+.milu img{
+    width: 15%;
+    height: auto;
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(248, 118, 85, 0.911);
+    transition: all ease 0.5s;
+}
+.milu img:hover{
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 20px 40px rgba(248, 118, 85, 0.950);
+}
+.milu-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#milu{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    padding: 0 30px 50px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+    text-align: center;
+
+}
+.cos{
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.cos:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+}
+#milu h1{
+    color:rgba(248, 118, 85, 0.911)
+}
+#milu h4{
+    color:rgba(5, 70, 37, 0.911)
+}
+#milu a{
+    color:rgb(117, 0, 250)
+}
+#milu a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* -------------------------Milu mare section------------------------------------------------------- */
+#milu-mare img{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: inline-flex;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    #milu-mare img {
+        width: 120%;
+        height: auto;
+    }
+    #milu img{
+        width: 50%;
+        height: auto;
+    }
+  }
+
+
+/* -------------------------Pandi section------------------------------------------------------- */
+
+
+.pandi img{
+    width: 15%;
+    height: auto;
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(248, 118, 85, 0.911);
+    transition: all ease 0.5s;
+}
+.pandi img:hover{
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 20px 40px rgba(248, 118, 85, 0.950);
+}
+
+.pandi-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+#pandi{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    padding: 0 30px 50px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+    text-align: center;
+
+}
+.cos{
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.cos:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+}
+#pandi h1{
+    color:rgba(248, 118, 85, 0.911)
+}
+#pandi h4{
+    color:rgba(5, 70, 37, 0.911)
+}
+#pandi a{
+    color:rgb(117, 0, 250)
+}
+#pandi a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* -------------------------Pandi mare section------------------------------------------------------- */
+#pandi-mare img{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: inline-flex;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    #pandi-mare img {
+        width: 120%;
+        height: auto;
+    }
+    #pandi img{
+        width: 50%;
+        height: auto;
+    }
+  }
+
+
+/* -------------------------Topa section------------------------------------------------------- */
+
+
+.topa img{
+    width: 15%;
+    height: auto;
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 30%;
+    box-shadow: 0px 10px 20px rgba(248, 118, 85, 0.911);
+    transition: all ease 0.5s;
+}
+.topa img:hover{
+    width: 30%;
+    height: auto;
+    box-shadow: 3px 20px 40px rgba(248, 118, 85, 0.950);
+}
+
+.topa-link{
+    text-decoration: none;
+    font-size: 30px;
+}
+#topa{
+    display: block;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    padding: 0 30px 50px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(248, 118, 85, 0.911);
+    text-align: center;
+
+}
+.cos{
+    border: 1px solid rgba(248, 118, 85, 0.911);
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.cos:hover{
+    color: #fff;
+    background-color: rgba(248, 118, 85, 0.911);
+}
+#topa h1{
+    color:rgba(248, 118, 85, 0.911)
+}
+#topa h4{
+    color:rgba(5, 70, 37, 0.911)
+}
+#topa a{
+    color:rgb(117, 0, 250)
+}
+#topa a:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* -------------------------Topa mare section------------------------------------------------------- */
+#topa-mare img{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: inline-flex;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    #topa-mare img {
+        width: 120%;
+        height: auto;
+    }
+    #topa img{
+        width: 50%;
+        height: auto;
+    }
+  }
+
+
+/* -------------------------Footer section------------------------------------------------------- */
+
+.copyright{
+    text-align: center;
+    background-color: rgba(248, 118, 85, 0.911);
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+span{
+    text-shadow: -2px 1px 0 rgb(39, 39, 39);
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+ 
+.code{
+    color: rgb(156, 53, 53);
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 10px;
+    background-image: radial-gradient(whitesmoke,rgba(248, 118, 85, 0.911));
+}
+.iframe{ 
+    text-align: center;
+    background-color: rgba(245, 182, 166, 0.911);
+}
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    .iframe h3 {
+        font-size: 20px;
+    }
+    .iframe h2 {
+        font-size: 30px;
+    }
+  }
